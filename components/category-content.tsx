@@ -39,7 +39,7 @@ export default function CategoryContent({ slug }: { slug: string }) {
   const [loading, setLoading] = useState(true);
   const [loadFailed, setLoadFailed] = useState(false);
   const [sort, setSort] = useState("default");
-  const [retryCount, setRetryCount] = useState(0);
+  
 
   useEffect(() => {
     let alive = true;
