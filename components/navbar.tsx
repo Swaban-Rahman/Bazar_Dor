@@ -36,7 +36,7 @@ export default function Navbar() {
     const url = new URL(window.location.href);
     const signedInWith = url.searchParams.get("signedIn");
     if (
-      
+      signedInWith !== "email" &&
       signedInWith !== "google" &&
       signedInWith !== "github"
     ) {
