@@ -78,7 +78,7 @@ Copy-Item .env.example .env.local
 **macOS or Linux**
 
 ```bash
-cp .env.example .env.local
+cp .env.example 
 ```
 
 Edit `.env.local` and replace placeholders with your own values. See [Environment Variables](#-environment-variables) for details. Then start the development server:
