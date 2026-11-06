@@ -54,7 +54,7 @@ function compactUnit(unit: string | undefined): string {
   if (!unit) return "/কেজি";
   if (unit.startsWith("/")) return unit;
   const normalized = unit.trim();
-  if (normalized.includes("কেজি")) return "/কেজি";
+  
   if (normalized.includes("লিটার")) return "/লিটার";
   if (normalized.includes("ডজন")) return "/ডজন";
   if (normalized.includes("পিস")) return "/পিস";
