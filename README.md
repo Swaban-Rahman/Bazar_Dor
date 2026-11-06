@@ -61,12 +61,6 @@ The public catalog can use its fallback data if the upstream API is unavailable.
 
 Clone the repository and install its dependencies:
 
-```bash
-git clone https://github.com/faiyaz-10/BazarDor.git
-cd BazarDor
-npm install
-```
-
 Create the local environment file from the provided example.
 
 **Windows PowerShell**
