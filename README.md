@@ -283,5 +283,5 @@ Prices and market information depend on the configured upstream API. When usable
 ## Assignment Submission
 
 - **Project:** বাজার দর (BazarDor)
-- **GitHub repository:** [https://github.com/faiyaz-10/BazarDor](https://github.com/faiyaz-10/BazarDor)
+- **GitHub repository:** [https://github.com/Swaban-Rahman/Bazar_Dor](https://github.com/Swaban-Rahman/Bazar_Dor)
 - **Live website:** `YOUR_VERCEL_DEPLOYMENT_URL` (replace after deployment)
